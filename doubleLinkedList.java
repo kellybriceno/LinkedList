@@ -1,27 +1,37 @@
+//kelly briceno 
+//linked list homework
+//ICSI 213 
 public class doubleLinkedList {
-  static linkNode root; 
-  static linkNode temp;
-  static linkNode current;
-  
-  
-  public void addNodes(int data) {
-  }
-  
-  
-   public void insertNode(int data, int after) {
-   }
-   
-   
-    public void deleteNode(int nodeString) {
-    }
-    
-    
-    public void print() {
-    }
-    
-    public void printBackwards() {
-      
-      }
+   //main class 
     public static void main(String [] args) {
-    }
+      LinkedList myList = new LinkedList(); // create linked list
+    
+    myList.insertFirst("Oranges");
+    myList.insertFirst("Chicken");
+    myList.insertFirst("Banana");
+    myList.insertFirst("Apples");
+    myList.match(); //calling match method
+     
+      System.out.print("\n");
+    
+    myList.displayABC(); //calls alphabetical order method
+    myList.displayFrwd();// calls forward method
+    myList.displayBckwrd(); //calls backward method
+   
+    //shows deleted nodes
+    System.out.print("Deleted nodes:");
+      Node deletedNode = myList.deleteFirst();
+    deletedNode.displayNode();
+    deletedNode = myList.deleteFirst();
+    deletedNode.displayNode();
+    
+    System.out.println("");
+    
+    
+    
+    
+
+  }
+}
+    
     
