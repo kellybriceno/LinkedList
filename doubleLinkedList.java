@@ -7,7 +7,7 @@ public class doubleLinkedList {
       LinkedList myList = new LinkedList(); // create linked list
     
     myList.insertFirst("Oranges");
-    myList.insertFirst("Chicken");
+    myList.insertFirst("Chicken"); //inserting nodes
     myList.insertFirst("Banana");
     myList.insertFirst("Apples");
     myList.match(); //calling match method
