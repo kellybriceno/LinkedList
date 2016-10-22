@@ -1,6 +1,6 @@
 //kelly briceno 
 //linked list homework
-//ICSI 213 
+//ICSI 213
 
 //class that contains methods
 public class LinkedList { 
