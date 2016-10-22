@@ -35,7 +35,7 @@ public class LinkedList {
       first = first.next;
       return tempNode;
     }
-       //Display in alphabetical order
+       //Display in alphabetical orderr
     public void displayABC() {
       System.out.print("Displaying in Alphabetical order");
       Node tempDisplay = first;
