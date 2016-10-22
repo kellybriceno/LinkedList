@@ -1,6 +1,6 @@
 //kelly briceno 
 //linked list homework
-//ICSI 213 
+//ICSI 213
 public class doubleLinkedList {
    //main class 
     public static void main(String [] args) {
