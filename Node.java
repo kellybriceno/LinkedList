@@ -11,7 +11,7 @@ class Node {
   public Node(String data) {
     this.data = data;
     
-  }
+  } //
   
   //display nodes data
   public void displayNode() {
